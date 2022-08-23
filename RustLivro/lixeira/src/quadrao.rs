@@ -1,4 +1,4 @@
-fn quadrado() {
+pub fn quadrado() {
     let width1 = 30;
     let height1 = 50;
 

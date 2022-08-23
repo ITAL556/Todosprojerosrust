@@ -1,4 +1,3 @@
-use core::num;
 use std::io;
 
 mod esfera;
@@ -20,7 +19,7 @@ fn main()
 
         if calc_poli.trim() == "1"
         {
-            println!("Você selecionou ""Retangulo"" agora vou precisar que vc informe as medidas do retangulo");
+            println!("Você selecionou Retangulo agora vou precisar que você informe as medidas do retangulo");
             quadrao::quadrado();
             break;
         }
